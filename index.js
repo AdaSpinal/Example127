@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
   res.send('Hello World hellooooo')
 
 })
-
-app.listen(3000)
+const PORT = process.env.PORT || 5000;
+app.listen(5000)
 
 
